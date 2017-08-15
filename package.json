@@ -1,0 +1,30 @@
+{
+  "name": "react-storybook-with-addon-info",
+  "version": "1.0.0",
+  "description": "Minimum working example for using React Storybook (3.2.4) with the Info addon (3.2.4).",
+  "author": "Matthew Gardner <contact@mordentware.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 9001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@storybook/addon-info": "^3.2.4",
+    "@storybook/react": "^3.2.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mordentware/react-storybook-with-addon-info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mordentware/react-storybook-with-addon-info/issues"
+  },
+  "homepage": "https://github.com/mordentware/react-storybook-with-addon-info#readme"
+}
